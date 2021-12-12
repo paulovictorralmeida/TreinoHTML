@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  margin-top: 40px;
+  color:gray
+}
+
+.flamengo{
+  background: white;
+  max-width: 600px;
+}
+
+.text {
+  font-family: Arial;
+}
+
+.text-purple {
+  color:rgb(129, 3, 247);
+  font-family: Arial;
+}
+
+.codigo {
+  text-align: right;
+}

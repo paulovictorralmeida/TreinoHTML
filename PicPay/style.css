@@ -1,0 +1,102 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #2222220e;
+}
+
+.logo {
+  margin-bottom: 20px;
+}
+
+.picpay {
+  height: 35px;
+}
+
+.cartao {
+  background: #fff;
+  border-top: 7px solid #11c76f;
+  padding: 20px;
+  border-radius: 0px 0px 8px 8px;
+  height: 480px;
+  width: 600px;
+}
+
+.quadrado {
+  border-top: 0.2px solid rgb(206, 206, 206);
+  border-bottom: 0.2px solid rgb(206, 206, 206);
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+p, li {
+  color: #333f4c;
+  font-size: 18px;
+}
+
+.style {
+  color: #11c76f;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 28px;
+  padding: 10px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+footer {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+b {
+  color: #7e8790;
+  font-size: 16px;
+}
+
+.marcatexto {
+  background: #fde293;
+  color: #000;
+}
+
+.pp {
+  color: #333f4c77;
+  font-size: 16px;
+}
+
+a {
+  color: #11c76f;
+}
+
+.links {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.rs {
+  height: 45px;
+}
+
+.ppp {
+  color: #333f4c77;
+  font-size: 12px;
+}

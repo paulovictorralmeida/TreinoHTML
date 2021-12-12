@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background:rgb(48, 47, 47);
+  max-width: 700px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.display {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+}
+
+.bfemelhorquecod {
+  margin: 0px;
+  width: 300px;
+}
+
+.text {
+  font-family: sans-serif;
+}
+
+.text-white{
+  color:#fff;
+}
+
+.text-gray{
+  color: rgb(119, 118, 118);
+  font-size: 35px;
+}
+
+#logo {
+  height: 80px;
+}
+
+#bfruim {
+  margin-bottom: 0px;
+}
+
+#price {
+  font-size: 12px;
+  background: rgb(32, 16, 104);
+  width: 60px;
+  margin-left: auto;
+}
+
+#desc {
+  font-size: 18px;
+}
+
+#botao {
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+#vldm {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 48%, rgba(0,212,255,1) 93%);
+  text-transform: uppercase;
+  border: none;
+  padding: 20px 60px;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  margin: 0;
+}

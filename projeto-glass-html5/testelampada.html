@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Lampada 2</title>
+    <meta charset="UFT-8"/>
+    <script>
+        var quebrada = false;
+        function quebraLampada(tipo){
+            if(!quebrada){
+                document.getElementById("luz").src ="_imagens/" + tipo + ".jpg";
+                if(tipo == 'lampada-quebrada'){
+                    quebrada = true;
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Ela é frágil!</h1>
+    <img src="_imagens/lampada-apagada.jpg" id="luz" onmousemove="quebraLampada('lampada-quebrada')" onmouseout="mudaLampada('lampada-apagada')"/>
+</body>    
+</html>
